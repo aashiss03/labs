@@ -42,13 +42,13 @@ git diff --staged - to view staged changes
 git commit -a -m "file2 change"
 
 rm file1
-git rm file2
+git rm file2 -  file will be deleted from working directory and local repository
 git status
 git add .
 git status
 git commit -m "commit name"
 
-git rm --cached file3
+git rm --cached file3 - file will be deleted from local repository bit not from current directory
 ls -ltr
 git status
 git commit -m "commit name"
