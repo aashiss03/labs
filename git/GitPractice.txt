@@ -77,7 +77,7 @@ git log
 git show 4084d6cbac9cc2b4eb5eb8bb22faddda9ddcc6a4
 git show v1.5
 
-Git clean -n --> to see unstated files
+Git clean -n --> to see unstaged files
 Git clean -f --> to remove
 
 
