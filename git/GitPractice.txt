@@ -36,7 +36,8 @@ git commit -m "first commit"
 git log
 git log --oneline
 
-
+git diff - to view unstaged changes
+git diff --staged - to view staged changes
 
 git commit -a -m "file2 change"
 
